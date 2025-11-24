@@ -10,11 +10,11 @@ import re
 import unidecode
 
 
-aws_access_key_id = 'AKIA4LTBLLTUAGB3EIP7'
-aws_secret_access_key = '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'
-region_name = 'us-east-1'
-database = '7-smartfit-da-de-lake-artifacts-athena-mkt'
-workgroup = 'mkt'  
+aws_access_key_id = ''
+aws_secret_access_key = '/ULrh/G7QJetu7WM6m0'
+region_name = ''
+database = ''
+workgroup = ''  
 
 
 client = boto3.client('athena', region_name=region_name,
